@@ -15,6 +15,11 @@
 		CD1E53DF269FCA73009DFAD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1E53B4269FCA6C009DFAD5 /* ContentView.swift */; };
 		CD1E53E0269FCA73009DFAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1E53B5269FCA73009DFAD5 /* Assets.xcassets */; };
 		CD1E53E1269FCA73009DFAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1E53B5269FCA73009DFAD5 /* Assets.xcassets */; };
+		CD35C78C269FF72B00F6AA8F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD35C78B269FF72B00F6AA8F /* Home.swift */; };
+		CD709B9D26A097C00074B2AD /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD709B9C26A097C00074B2AD /* Main.swift */; };
+		CD709BA026A0BBF90074B2AD /* Nuevo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD709B9F26A0BBF80074B2AD /* Nuevo.swift */; };
+		CD709BA226A0BDFA0074B2AD /* ListaCorrectivos.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD709BA126A0BDFA0074B2AD /* ListaCorrectivos.swift */; };
+		CDE79A9D26A0F20F009510FA /* ContenedorCorrectivo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE79A9C26A0F20E009510FA /* ContenedorCorrectivo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		CD1E53D5269FCA73009DFAD5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD1E53D9269FCA73009DFAD5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		CD1E53DB269FCA73009DFAD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD35C78B269FF72B00F6AA8F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CD709B9C26A097C00074B2AD /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		CD709B9F26A0BBF80074B2AD /* Nuevo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nuevo.swift; sourceTree = "<group>"; };
+		CD709BA126A0BDFA0074B2AD /* ListaCorrectivos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaCorrectivos.swift; sourceTree = "<group>"; };
+		CDE79A9C26A0F20E009510FA /* ContenedorCorrectivo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContenedorCorrectivo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +129,8 @@
 		CD1E53BC269FCA73009DFAD5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CD709B9E26A0BBE60074B2AD /* Correctivo */,
+				CD35C78A269FF71100F6AA8F /* Home */,
 				CD1E53BD269FCA73009DFAD5 /* Info.plist */,
 			);
 			path = iOS;
@@ -149,6 +161,25 @@
 				CD1E53DB269FCA73009DFAD5 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		CD35C78A269FF71100F6AA8F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD35C78B269FF72B00F6AA8F /* Home.swift */,
+				CD709B9C26A097C00074B2AD /* Main.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD709B9E26A0BBE60074B2AD /* Correctivo */ = {
+			isa = PBXGroup;
+			children = (
+				CD709B9F26A0BBF80074B2AD /* Nuevo.swift */,
+				CD709BA126A0BDFA0074B2AD /* ListaCorrectivos.swift */,
+				CDE79A9C26A0F20E009510FA /* ContenedorCorrectivo.swift */,
+			);
+			path = Correctivo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,6 +340,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD1E53DE269FCA73009DFAD5 /* ContentView.swift in Sources */,
+				CD35C78C269FF72B00F6AA8F /* Home.swift in Sources */,
+				CD709BA026A0BBF90074B2AD /* Nuevo.swift in Sources */,
+				CD709BA226A0BDFA0074B2AD /* ListaCorrectivos.swift in Sources */,
+				CD709B9D26A097C00074B2AD /* Main.swift in Sources */,
+				CDE79A9D26A0F20F009510FA /* ContenedorCorrectivo.swift in Sources */,
 				CD1E53DC269FCA73009DFAD5 /* LMAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,7 @@ struct LMAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }
